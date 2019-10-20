@@ -1,0 +1,100 @@
+@media all and (max-width:1024px) {
+.topMenu_logo a {
+    padding-right: 10px;
+}
+.portfolio img {
+    height: 25vw;
+}
+}
+@media all and (max-width:991px) {
+.portfolio img {
+    height: 20vw;
+}
+}
+@media all and (max-width:800px) {
+.topMenu ul {
+	display: none;
+}
+.topMenu_logo a {
+    padding-right: 0px;
+}
+.topMenu ul {
+    justify-content: left;
+}
+.topMenu label.toggleMenu{
+	display: block;
+}
+input.toggleMenu:checked + label.toggleMenu{
+	background: #2A2B2C;
+	color: #FFF;
+}
+input.toggleMenu:checked ~ ul{
+	display: block;
+    height: 350px;
+}
+.topMenu label.toggleMenu{
+	display: block;
+}
+.topMenu ul li {
+	padding: 5px;
+}
+.aboutMe_name {
+    font-size: 100px;
+}
+.aboutMe_specialty {
+    font-size: 25px;
+}
+}
+@media all and (max-width:767px) {
+.summary_centerI {
+    padding-bottom: 20px;
+}
+.center {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.summary_left {
+    text-align: center;
+}
+.summary_centerI {
+    padding-bottom: 10px;
+}
+
+.portfolio p {
+    padding-bottom: 30px;
+	text-align: center;
+}
+.portfolio a {
+    text-align: center;
+    display: block;
+}
+@media all and (max-width:480px) {
+	.aboutMe_name {
+    font-size: 50px;
+}
+.aboutMe_specialty {
+    font-size: 20px;
+}
+.summary h2 {
+    font-size: 30px;
+}
+.summary_centerW {
+    font-size: 18px;
+}
+.summary_centerI {
+    font-size: 15px;
+}
+.summary_centerL {
+    font-size: 15px;
+}
+.text_center {
+    text-align: center;
+    font-size: 30px;
+}
+}
+
+@media all and (max-width:320px) {
+.center img {
+    height: 70vw;
+}
+}
